@@ -1,0 +1,10 @@
+{
+  "name": "@tslib/webapi",
+  "version": "1.0.2",
+  "description": "webapi define for typescript",
+  "main": "dist/webapi.ts",
+  "types": "dist/webapi.d.ts",
+  "repository": "git@github.com:mm-ts-lib/webapi.git",
+  "author": "zhufeng <zhfjyq@163.com>",
+  "license": "MIT"
+}
