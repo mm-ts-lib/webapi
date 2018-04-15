@@ -1,6 +1,6 @@
 {
   "name": "@tslib/webapi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webapi define for typescript",
   "main": "dist/webapi.ts",
   "types": "dist/webapi.d.ts",
