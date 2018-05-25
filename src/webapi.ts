@@ -65,7 +65,7 @@ export interface IAPI<REQ_T, RES_T> {
     (req: REQ_T): Promise<RES_T>,
 }
 export function HTTP<REQ_T, RES_T>() {
-    const func: IAPI<REQ_T, RES_T> = () => { throw new Error('INVALID HTTP API'); };
+    const func: IAPI<REQ_T, RES_T> = function () { throw new Error('INVALID HTTP API'); };
     return func;
 }
 
